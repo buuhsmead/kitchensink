@@ -9,12 +9,11 @@
   License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS 
   OF ANY KIND, either express or implied. See the License for the specific 
   language governing permissions and limitations under the License. -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.quickstarts.eap</groupId>
   <artifactId>jboss-kitchensink-angularjs</artifactId>
-  <version>7.0.1-SNAPSHOT</version>
+  <version>7.0.1</version>
   <packaging>war</packaging>
   <name>JBoss EAP Quickstart: kitchensink-angularjs</name>
   <description>A starter Java EE 7 webapp project for use on JBoss EAP 7 using AngularJS for the view</description>
@@ -22,6 +21,7 @@
 
   <scm>
 	  <developerConnection>scm:git:[fetch=]http://gogs-xyz-gogs.apps.127.0.0.1.nip.io/huub/kitchensink.git[push=]http://gogs-xyz-gogs.apps.127.0.0.1.nip.io/huub/kitchensink.git</developerConnection>
+    <tag>jboss-kitchensink-angularjs-7.0.1</tag>
   </scm>
 
 
@@ -90,7 +90,7 @@
     <version.maven.clean>3.0.0</version.maven.clean>
     <version.maven.war>2.6</version.maven.war>
 
-    <skipTests>false</skipTests>
+    <skipTests>true</skipTests>
     <skipITs>${skipTests}</skipITs>
     <skipUTs>${skipTests}</skipUTs>
   </properties>

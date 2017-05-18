@@ -46,7 +46,7 @@ import org.jboss.as.quickstarts.kitchensink.service.MemberRegistration;
 
 /**
  * JAX-RS Example
- * <p/>
+ * 
  * This class produces a RESTful service to read/write the contents of the
  * members table.
  */
@@ -87,6 +87,8 @@ public class MemberResourceRESTService {
      * Creates a new member from the values provided. Performs validation, and
      * will return a JAX-RS response with either 200 ok, or with a map of
      * fields, and related errors.
+     *
+     * @param member Member
      */
     @POST
     @Consumes(MediaType.APPLICATION_JSON)

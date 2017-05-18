@@ -13,7 +13,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.quickstarts.eap</groupId>
   <artifactId>jboss-kitchensink-angularjs</artifactId>
-  <version>7.0.3-SNAPSHOT</version>
+  <version>7.0.7-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>JBoss EAP Quickstart: kitchensink-angularjs</name>
   <description>A starter Java EE 7 webapp project for use on JBoss EAP 7 using AngularJS for the view</description>
@@ -251,8 +251,19 @@
     <!-- Maven will append the version to the finalName (which is the name 
       given to the generated war, and hence the context root) -->
     <finalName>${project.artifactId}</finalName>
+
+
+
+
+ 
     <plugins>
-<plugin>
+	    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+      </plugin>
+	    
+	    <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-javadoc-plugin</artifactId>
 <version>2.10.4</version>

@@ -5,6 +5,11 @@
 
 
     <servers>
+  <server>
+    <id>nexus</id>
+    <username>admin</username>
+    <password>admin123</password>
+  </server>
 	    <server>
       		<id>training-snapshots</id>
       <username>admin</username>
@@ -20,12 +25,13 @@
 
 <mirrors>
 <mirror>
-<id>internal-repository</id>
+<id>nexus</id>
 <name>Maven Repository Manager running on repo.mycompany.com</name>
 <url>http://nexus3-xyz-nexus.apps.127.0.0.1.nip.io/repository/maven-all-public/</url>
 <mirrorOf>external:*</mirrorOf>
 </mirror>
 </mirrors>
+
 
 </settings>
 

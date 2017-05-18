@@ -25,6 +25,16 @@
   </scm>
 
 
+<distributionManagement>
+    <snapshotRepository>
+    <id>training-snapshots</id>
+    <url>http://nexus3-xyz-nexus.apps.127.0.0.1.nip.io/repository/training-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+    <id>training-released</id>
+    <url>http://nexus3-xyz-nexus.apps.127.0.0.1.nip.io/repository/training-released/</url>
+    </repository>
+  </distributionManagement>
 
 
 

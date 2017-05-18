@@ -20,6 +20,14 @@
   <description>A starter Java EE 7 webapp project for use on JBoss EAP 7 using AngularJS for the view</description>
   <url>http://www.jboss.org/products/eap</url>
 
+  <scm>
+	  <developerConnection>scm:git:[fetch=]http://gogs-xyz-gogs.apps.127.0.0.1.nip.io/huub/kitchensink.git[push=]http://gogs-xyz-gogs.apps.127.0.0.1.nip.io/huub/kitchensink.git</developerConnection>
+  </scm>
+
+
+
+
+
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
